@@ -3,10 +3,10 @@ import psycopg2
 def generate_insert_sql_file(table_name, output_file):
     # Conecta ao banco de dados
     conn = psycopg2.connect(
-        host="localhost",
-        database="pmssojoaodaponta",
-        user="postgres",
-        password="20221612"
+        host="",
+        database="",
+        user="",
+        password=""
     )
     cur = conn.cursor()
 
